@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,
+html {
+width: 100vw;
+min-height: 100vh;
+font-family: 'Poppins', sans-serif;
+}
+.head{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 25px;
+    background-color: aqua;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+.card{
+    background-color: chartreuse;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+}
+.sekil{
+    height: 325px;
+    width: 100%;
+    object-fit: cover;
+}
+.btn{
+    background-color: darkgoldenrod;
+    color: black;
+    outline: none;
+    border: none;
+    margin-top: 8px;
+}
+.yazi{
+    margin-top: 12px;
+}
+.body{
+    background-color: blue;
+}
+@media (max-width : 992px) {
+    .card {
+        width: 48%;
+    }
+}
+
+@media (max-width : 600px) {
+    .card {
+        width: 100%;
+    }
+}
